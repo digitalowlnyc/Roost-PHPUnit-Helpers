@@ -1,0 +1,29 @@
+{
+  "name": "roost/phpunit-helpers",
+  "description": "PHPUnit helper classes",
+  "authors": [
+    {
+      "name": "Blue Nest",
+      "email": "packages@bnest.co"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roost\\Testing\\PHPUnit\\Helpers\\": "src"
+    },
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+  ],
+  "extra": {
+  }
+}
